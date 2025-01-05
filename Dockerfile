@@ -9,6 +9,6 @@ RUN npm install
 # Copy the rest of your application code
 COPY . .
 # Expose the port the app runs on
-EXPOSE 2111
+EXPOSE 3000
 # Command to run the application
 CMD ["node", "gcd.js"]
